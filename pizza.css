@@ -1,0 +1,74 @@
+/*
+   New Perspectives on HTML and CSS
+   Tutorial 4
+   Case Problem 2
+
+   Pizza Style Sheet
+   Author: Shannon O'Donnell
+   Date:   09/24/2017
+
+   Filename:         pizza.css
+   Supporting Files: 
+*/   
+   header {
+	   display: block;
+	   padding: 0px;
+	   margin: 0px;
+	   background-color: white;
+	   height: 100px;
+   }
+   
+   aside {
+	   display: block;
+	   padding: 0px;
+	   margin: 0px;
+   }
+   
+   footer {
+	   display: block;
+	   padding: 0px;
+	   margin: 0px;
+   }
+   
+   nav {
+	   display: block;
+	   padding: 0px;
+	   margin: 0px;
+   }
+   
+   #nav.horizontalNAV {
+	   height: 70px;
+	   width: 100%;
+	   background-color: white;
+   }
+   
+   #nav.horizontalNAV a {
+	   background-color: white;
+	   font-size: 16px;
+	   font height 50px;
+	   
+   }
+   
+   body {
+	   background-color: red;
+	   font-family: Verdana, Geneva, sans-serif;
+   }
+   
+   #container {
+	   width: 1000px;
+	   margin-top: 0px;
+	   margin-bottom: 0px;
+	   margin-left: auto;
+	   margin-right: auto;
+	   border-left: 1px;
+	   border-right: 1px;
+	   border-color: black;
+	   background-color: white;
+	   background-image: redbar.png;
+	   background-position: top left;
+	   background-repeat: vertical tile;
+   }
+
+
+
+

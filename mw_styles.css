@@ -1,0 +1,104 @@
+﻿/*
+   New Perspectives on HTML and CSS
+   Tutorial 3
+   Case Problem 2
+
+   Mountain Wheels Text and Color Style
+   Author: Shannon O'Donnell
+   Date:   09/17/17
+
+   Filename:         mw_styles.css
+   Supporting Files: none
+*/
+
+/*designate the link colors for older browsers*/
+<body link:"white" alink:"yellow">
+
+/*specify the font family for body paragraphs*/   
+body{
+	font-family: Tahoma, Geneva, sans-serif;
+	}
+
+/*specify font style and formating for the articleheader id*/
+#articleheader{
+	font-size:18px; 
+	font-weight:normal; 
+	letter-spacing:7px; 
+	text-align:center;
+}
+
+/*specify formating for the nav section*/
+nav{
+	background-color:rgb(125,20,89); 
+	line-height:3em;
+}
+
+/*specify line style for the nave list*/
+nav ul{
+	list-style-type:none;
+}
+
+/*specify the formatting for links in the nav list*/
+nav ul li a{
+	color:rgba(255,255,255,0.5); 
+	text-decoration:none;
+}
+
+/*specify the hover formatting for links in the nav list*/
+nav ul li:hover{
+	background-color:rgb(131,121,36); 
+	list-style-image:url(wheelmarker.png); 
+	color:rgba(255,255,255,1);
+}
+
+/*designate the font size for the left section id*/
+#leftsection{font-size:22px;}
+/*designate the text transformation for the first line of 
+the first paragraph in the left section*/
+#leftsection > p:first-of-type:first-line{
+	text-transform: uppercase;
+}
+
+/*specify the formating for the blockquote section*/
+blockquote{
+	background-color:rgb(131,121,36);
+	color:white;
+	font-size:16px;
+	font-family:Comic Sans MS, Times, cursive;
+}
+/*add a double quotation before and after paragraphs in the
+blockquote section*/
+blockquote > p:before{content: '"'}
+blockquote > p:after{content:'"'}
+
+/*Specify the formatting for the header 1s in the rightsection id*/
+#rightsection h1{
+	font-size:22px; 
+	font-weight:normal; 
+	letter-spacing:3px; 
+	text-align:center;
+}
+
+/*Specify the formatting for the header 2s in the rightsection id*/
+#rightsection h2{
+	font-size:18px;  
+	font-weight:normal; 
+	text-align:right;
+}
+
+/*Specify the formatting for the rightsection id*/
+#rightsection{
+	color:gray; 
+	font-size:14px; 
+	text-align:justify;
+}
+
+/*Specify the formatting for the footer address section*/
+footer address{
+	font-size:16px;
+	font-style:normal;
+	text-align:center;
+}
+	
+
+
